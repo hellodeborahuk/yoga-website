@@ -8,7 +8,6 @@ export default function Nav() {
             </div>
             <h1>Debbie Dann Yoga</h1>
             <div className="right-nav">
-                <a href="/">Manage Account</a>
                 <button>Book your class</button>
             </div>
         </nav>

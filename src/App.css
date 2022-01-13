@@ -127,6 +127,19 @@ button {
 .info-overview {
   width: 80%;
   margin: 4em auto;
+  display: flex;
+  gap: 2em;
+}
+
+
+.info-overview-copy {
+  display: block;
+ flex-basis: 150px;
+  flex-grow: 1;
+}
+
+.info-overview img {
+width: 50%;
 }
 
 /* MAILING LIST */
