@@ -1,3 +1,3 @@
 export default function Hero() {
-    return <div>Hero image</div>
+    return <img src="./images/banner.jpg" alt="sunset" className="hero-img" />
 }

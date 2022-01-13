@@ -54,6 +54,13 @@ button {
   padding: 1em 2em;
 }
 
+/* HERO */
+
+.hero-img {
+  width: 100%;
+  margin-top: 1em;
+}
+
 /* INFO BOXES */
 
 .info {
@@ -77,4 +84,55 @@ button {
 .info-quote {
   background-color: var(--soft-pink);
   font-weight: 600;
+}
+
+.info-overview {
+  width: 80%;
+  margin: 4em auto;
+
+}
+
+/* MAILING LIST */
+
+.mailing-list-section {
+  background-color: var(--caramel);
+  margin: 0 -3em;
+  padding-bottom: 2em;
+}
+
+.mailing-list {
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+input {
+  padding: 1em;
+  border-radius: 4px;
+  border: none;
+  margin-right: 1em;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 1px solid var(--soft-pink);
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  gap: 6em;
+}
+
+footer > * { flex: 1; }
+
+
+.social-icons {
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 60%;
+  margin: 0 auto;
 }
