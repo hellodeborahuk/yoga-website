@@ -1,7 +1,7 @@
 export default function Info() {
     return (
       <div className="info">
-        <div>
+        <div className="info-hatha">
           <h2>Hatha Yoga</h2>
           <p>
             Come and join me online for a gentle flow class with a lovely
@@ -11,7 +11,7 @@ export default function Info() {
             the comfort of your home!
           </p>
         </div>
-        <div>
+        <div className="info-restorative">
           <h2>Restorative Yoga</h2>
           <p>
             Come and join me online for a restorative class full of relaxation.
@@ -19,9 +19,10 @@ export default function Info() {
             come and give it a go from the comfort of your home!
           </p>
         </div>
-        <div>
+        <div className="info-quote">
           <p>
-            "Testimonial quote goes here"
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            placerat nunc sed leo cursus laoreet."
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 3em;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--pale-cream);
@@ -15,15 +15,15 @@ body {
 }
 
 /* TYPOGRAPHY */
-h1 {
+h1, h2 {
   font-family: 'Italiana', serif;
 }
 
+/* NAVIGATION */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3em;
   border-bottom: 1px solid var(--soft-pink);
 }
 
@@ -52,4 +52,29 @@ button {
   color: var(--pale-cream);
   font-weight: 600;
   padding: 1em 2em;
+}
+
+/* INFO BOXES */
+
+.info {
+  display: flex;
+  gap: 2em;
+  margin: 2em 0;
+}
+.info-hatha, .info-restorative, .info-quote {
+    padding: 0 2em;
+}
+
+.info-hatha {
+  background-color: var(--teal);
+  color: var(--pale-cream)
+}
+
+.info-restorative {
+  background-color: var(--caramel);
+}
+
+.info-quote {
+  background-color: var(--soft-pink);
+  font-weight: 600;
 }
