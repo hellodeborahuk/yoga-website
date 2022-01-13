@@ -5,6 +5,7 @@ import Info from "./components/Info"
 import ClassInfo from "./components/ClassInfo"
 import MailingList from "./components/MailingList"
 import LatestBlog from "./components/LatestBlog"
+import Gallery from "./components/Gallery"
 import Footer from "./components/Footer"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <ClassInfo />
       <MailingList />
       <LatestBlog />
+      <Gallery />
       <Footer />
     </div>
   );

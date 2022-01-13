@@ -36,7 +36,7 @@ export default function LatestBlog() {
                 alt={data.title}
               />
               <h4>{data.title}</h4>
-              <p>{data.copy}</p>
+              <p>{data.extract}</p>
               <button>Read more</button>
             </div>
           );

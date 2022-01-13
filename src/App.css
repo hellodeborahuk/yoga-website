@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   background-color: var(--pale-cream);
   color: var(--dark-grey);
+  font-size: 16px;
 }
 
 /* TYPOGRAPHY */
@@ -184,6 +185,27 @@ input {
 }
 .blog-thumbnail {
   width: 100%;
+}
+
+.latest-blog button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* GALLERY */
+
+.gallery {
+  margin: 3em auto;
+  width: 80%;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.gallery-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* FOOTER */
