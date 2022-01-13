@@ -3,7 +3,7 @@
   --pale-cream: #fcf8f4;
   --caramel: #e7d8c9;
   --soft-pink: #e4babe;
-  --dark-grey: #42454C;
+  --dark-grey: #42454c;
 }
 
 body {
@@ -11,12 +11,19 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: var(--pale-cream);
-   color: var(--dark-grey)
+  color: var(--dark-grey);
 }
 
 /* TYPOGRAPHY */
-h1, h2 {
-  font-family: 'Italiana', serif;
+h1,
+h2 {
+  font-family: "Italiana", serif;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 /* NAVIGATION */
@@ -37,10 +44,10 @@ nav {
 a {
   text-decoration: none;
   font-weight: 600;
-  color: var(--dark-grey)
+  color: var(--dark-grey);
 }
 
-a:hover, 
+a:hover,
 a:focus {
   color: var(--teal);
 }
@@ -57,8 +64,37 @@ button {
 /* HERO */
 
 .hero-img {
-  width: 100%;
-  margin-top: 1em;
+  width: 50%;
+  display: block;
+  margin: 1em auto;
+}
+
+.hero-price {
+  background-color: var(--soft-pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 150px;
+  right: 200px;
+}
+
+.hero-price p {
+  margin: 0;
+}
+
+.hero-copy {
+  width: 15%;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.hero-copy span {
+  font-weight: 600;
 }
 
 /* INFO BOXES */
@@ -68,13 +104,15 @@ button {
   gap: 2em;
   margin: 2em 0;
 }
-.info-hatha, .info-restorative, .info-quote {
-    padding: 0 2em;
+.info-hatha,
+.info-restorative,
+.info-quote {
+  padding: 0 2em;
 }
 
 .info-hatha {
   background-color: var(--teal);
-  color: var(--pale-cream)
+  color: var(--pale-cream);
 }
 
 .info-restorative {
@@ -89,7 +127,6 @@ button {
 .info-overview {
   width: 80%;
   margin: 4em auto;
-
 }
 
 /* MAILING LIST */
@@ -125,9 +162,12 @@ footer {
   gap: 6em;
 }
 
-footer > * { flex: 1; }
+footer > * {
+  flex: 1;
+}
 
-.social {  display: grid;
+.social {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: row;
   gap: 1em;
@@ -138,11 +178,15 @@ footer > * { flex: 1; }
   align-items: start;
 }
 
-.facebook { grid-area: facebook;
-justify-self: start; }
+.facebook {
+  grid-area: facebook;
+  justify-self: start;
+}
 
-.instagram { grid-area: instagram;
-justify-self: end; }
+.instagram {
+  grid-area: instagram;
+  justify-self: end;
+}
 
 .social-icons {
   font-size: 3rem;
@@ -158,5 +202,5 @@ justify-self: end; }
   flex-direction: column;
 }
 .footer-nav a {
-   font-weight: 400;
+  font-weight: 400;
 }
