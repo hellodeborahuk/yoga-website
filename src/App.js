@@ -2,8 +2,9 @@ import './App.css';
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import Info from "./components/Info"
+import ClassInfo from "./components/ClassInfo"
 import MailingList from "./components/MailingList"
-import Blog from "./components/Blog"
+import LatestBlog from "./components/LatestBlog"
 import Footer from "./components/Footer"
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <Nav />
       <Hero />
       <Info />
+      <ClassInfo />
       <MailingList />
-      <Blog />
+      <LatestBlog />
       <Footer />
     </div>
   );

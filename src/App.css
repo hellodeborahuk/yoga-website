@@ -164,6 +164,14 @@ input {
   margin-right: 1em;
 }
 
+
+
+/* BLOG*/
+
+.blog-thumbnail {
+  width: 20%;
+}
+
 /* FOOTER */
 
 footer {
