@@ -106,13 +106,13 @@ button {
   gap: 2em;
   margin: 2em 0;
 }
-.info-hatha,
+.info-flow,
 .info-restorative,
 .info-quote {
   padding: 0 2em;
 }
 
-.info-hatha {
+.info-flow {
   background-color: var(--teal);
   color: var(--pale-cream);
 }
@@ -190,8 +190,8 @@ input {
 
 footer {
   border-top: 1px solid var(--soft-pink);
-  margin-top: 2em;
-  padding-top: 1em;
+  margin-top: 3em;
+  padding-top: 3em;
   display: flex;
   justify-content: space-between;
   gap: 6em;

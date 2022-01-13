@@ -1,8 +1,8 @@
 export default function Info() {
   return (
       <div className="info">
-        <div className="info-hatha">
-          <h2>Hatha Yoga</h2>
+        <div className="info-flow">
+          <h2>Gentle Yoga Flow</h2>
           <p>
             Come and join me online for a gentle flow class with a lovely
             relaxation at the end. You will receive a warm welcome and leave
