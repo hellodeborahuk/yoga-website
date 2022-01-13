@@ -91,7 +91,8 @@ button {
 }
 
 .hero-copy {
-  width: 20%; 
+  width: 15%; 
+  font-size: 1.2rem;
 }
 
 .hero-copy span {
