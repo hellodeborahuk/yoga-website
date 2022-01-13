@@ -1,5 +1,14 @@
+root {
+  --teal: #20998B;
+  --pale-cream: #FCF8F4;
+  --caramel: #E7D8C9;
+  --soft-pink: #E4BABE;
+}
+
 body {
   margin: 0;
+  padding: 0;
+    box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
