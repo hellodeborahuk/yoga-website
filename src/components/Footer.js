@@ -13,15 +13,25 @@ export default function Footer() {
         </p>
       </div>
       <div className="social">
-        <a href="/" className="social-icons">
+        <a href="/" className="social-icons instagram">
           <FaInstagram />
         </a>
-        <a href="/" className="social-icons">
+        <a href="/" className="social-icons facebook">
           <FaFacebookSquare />
         </a>
-        <img src="./images/logo-nameless-small.png" alt="logo" className="logo" />
+        <img
+          src="./images/logo-nameless-small.png"
+          alt="logo"
+          className="logo"
+        />
       </div>
-      <div>menu</div>
+      <div className="footer-nav">
+        <a href="/">Home</a>
+        <a href="/">About</a>
+        <a href="/">Contact</a>
+        <a href="/">Privacy Policy</a>
+        <a href="/">Terms and Conditions</a>
+      </div>
     </footer>
   );
 }
