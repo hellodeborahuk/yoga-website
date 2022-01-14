@@ -13,6 +13,7 @@ body {
   background-color: var(--pale-cream);
   color: var(--dark-grey);
   font-size: 16px;
+  min-height: 100vh;
 }
 
 /* TYPOGRAPHY */
@@ -113,18 +114,43 @@ button {
   padding: 0 2em;
 }
 
+.info p {
+  width: 80%;
+}
+
 .info-flow {
   background-color: var(--teal);
   color: var(--pale-cream);
+  position: relative;
 }
 
 .info-restorative {
   background-color: var(--caramel);
+  position: relative;
+}
+
+.info-img {
+  opacity: 0.5;
+}
+
+.lotus, .meditation {
+  width: 100px;
+  position: absolute;
+  top: 15px;
+  right: 5px;
 }
 
 .info-quote {
   background-color: var(--soft-pink);
   font-weight: 600;
+  position: relative;
+}
+
+.quote-marks {
+  width: 50px;
+  position: absolute;
+  top: 30px;
+  right: -25px;
 }
 
 .info-overview {
