@@ -1,10 +1,6 @@
 import './App.css';
-import Hero from "./components/Hero"
-import Info from "./components/Info"
-import ClassInfo from "./components/ClassInfo"
-import MailingList from "./components/MailingList"
-import LatestBlog from "./components/LatestBlog"
-import Gallery from "./components/Gallery"
+import { Link } from "react-router-dom";
+import Home from "./components/Home"
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 
@@ -13,21 +9,16 @@ function App() {
     <div className="App">
       <nav>
         <div className="left-nav">
-          <a href="/">Home</a>
-          <a href="/">Blog</a>
-          <a href="/">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/bloglist">Blog</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <h1>Debbie Dann Yoga</h1>
         <div className="right-nav">
           <button>Book your class</button>
         </div>
       </nav>
-      <Hero />
-      <Info />
-      <ClassInfo />
-      <MailingList />
-      <LatestBlog />
-      <Gallery />
+      <Home />
       <footer>
         <div>
           <p>

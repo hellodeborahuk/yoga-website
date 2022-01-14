@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
 }
 
-/* TYPOGRAPHY */
+/* ================= TYPOGRAPHY ================= */
 h1,
 h2 {
   font-family: "Italiana", serif;
@@ -28,7 +28,7 @@ h3 {
   margin: 0;
 }
 
-/* NAVIGATION */
+/* ================= NAVIGATION ================= */
 nav {
   display: flex;
   justify-content: space-between;
@@ -62,7 +62,7 @@ button {
   padding: 1em 2em;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 
 .hero {
   height: 400px;
@@ -92,10 +92,10 @@ button {
 }
 
 .hero-copy {
-  width: 15%;
-  font-size: 1.2rem;
+  width: 30%;
+  font-size: 1.4rem;
   position: absolute;
-  top: 220px;
+  top: 280px;
   left: 100px;
   color: var(--pale-cream);
 }
@@ -104,7 +104,7 @@ button {
   font-weight: 600;
 }
 
-/* INFO BOXES */
+/* ================= INFO BOXES ================= */
 
 .info {
   display: flex;
@@ -175,7 +175,7 @@ button {
   width: 50%;
 }
 
-/* MAILING LIST */
+/* ================= MAILING LIST ================= */
 
 .mailing-list-section {
   background-color: var(--caramel);
@@ -197,7 +197,7 @@ input {
   margin-right: 1em;
 }
 
-/* BLOG*/
+/* ================= BLOG ================= */
 
 .latest-blog-title {
   text-align: center;
@@ -220,7 +220,7 @@ input {
   margin: 0 auto;
 }
 
-/* GALLERY */
+/* ================= GALLERY ================= */
 
 .gallery {
   margin: 3em auto;
@@ -236,7 +236,7 @@ input {
   object-fit: cover;
 }
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 
 footer {
   border-top: 1px solid var(--soft-pink);
