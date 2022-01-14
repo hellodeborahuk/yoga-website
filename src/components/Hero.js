@@ -7,11 +7,6 @@ export default function Hero() {
             of your own home.
           </p>
         </div>
-        <img
-          src="./images/undraw_meditation_re_gll0.svg"
-          alt="yoga"
-          className="hero-img"
-        />
         <div className="hero-price">
           <h3>£25</h3>
           <p>per month</p>

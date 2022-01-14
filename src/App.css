@@ -33,7 +33,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--soft-pink);
 }
 
 .left-nav,
@@ -66,15 +65,12 @@ button {
 /* HERO */
 
 .hero {
-  width: 80%;
-  display: flex;
-  margin: 2em auto;
-  justify-content: space-between;
-}
-
-.hero-img {
-  width: 50%;
-
+  height: 400px;
+  margin: 0 -3em;
+  background: linear-gradient(58deg, rgba(32,153,139,0.6) 0%, rgba(32,153,139,0.6) 100%), url(./images/restorative-yoga-savasana.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 45%;
+  position: relative;
 }
 
 .hero-price {
@@ -86,6 +82,9 @@ button {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
 
 .hero-price p {
@@ -93,8 +92,12 @@ button {
 }
 
 .hero-copy {
-  width: 15%; 
+  width: 15%;
   font-size: 1.2rem;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  color: var(--pale-cream);
 }
 
 .hero-copy span {
@@ -106,7 +109,8 @@ button {
 .info {
   display: flex;
   gap: 2em;
-  margin: 2em 0;
+  width: 80%;
+  margin: 3em auto;
 }
 .info-flow,
 .info-restorative,
@@ -133,8 +137,9 @@ button {
   opacity: 0.5;
 }
 
-.lotus, .meditation {
-  width: 100px;
+.lotus,
+.meditation {
+  width: 80px;
   position: absolute;
   top: 15px;
   right: 5px;
@@ -160,15 +165,14 @@ button {
   gap: 2em;
 }
 
-
 .info-overview-copy {
   display: block;
- flex-basis: 150px;
+  flex-basis: 150px;
   flex-grow: 1;
 }
 
 .info-overview img {
-width: 50%;
+  width: 50%;
 }
 
 /* MAILING LIST */
@@ -193,8 +197,6 @@ input {
   margin-right: 1em;
 }
 
-
-
 /* BLOG*/
 
 .latest-blog-title {
@@ -205,8 +207,8 @@ input {
 .latest-blog {
   width: 80%;
   margin: 2em auto;
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
 }
 .blog-thumbnail {
